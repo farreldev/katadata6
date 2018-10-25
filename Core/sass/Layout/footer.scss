@@ -1,0 +1,166 @@
+.footer {
+	width: 100%;
+	height: auto;
+	padding: 20px 0 0;
+	color: #777;
+	border-top: 10px solid #ddd;
+	background: $graygreen;
+	.logo-bottom {
+		margin-bottom: 30px;
+		width: 190px;
+    }
+	strong {
+		margin-bottom: 10px;
+		display: inline-block;
+		font-family: "Gotham Narrow A", "Gotham Narrow B", roboto_medium;
+		font-size: 16px;
+		font-weight: 500;
+		color: $hitam;
+    }
+	a {
+		strong {
+			display: inline-block;
+			font-family: "Gotham Narrow A", "Gotham Narrow B", roboto_medium;
+			font-size: 16px;
+			font-weight: 500;
+			color: $hitam;
+        }
+    }
+	ul {
+		li {
+			padding: 0 0 10px;
+			&:last-child {
+                @include breakpoint(mobile) {
+                    margin-bottom: 20px;
+                }
+            }
+			a {
+				display: block;
+				font-family: "Gotham Narrow A", "Gotham Narrow B", roboto_regular;
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 1.4;
+				color: $hitam;
+            }
+        }
+    }
+	p.small {
+		margin-bottom: 25px;
+    }
+	.copyright {
+		margin-top: 20px;
+		padding: 10px 0;
+		background: #191a1e;
+		text-align: center;
+		ul * {
+			font-family: "Gotham Narrow A", "Gotham Narrow B", roboto_light;
+			font-size: 14px;
+			font-weight: 300;
+        }
+		ul {
+			padding: 0;
+			li {
+				padding: 0 10px;
+				display: inline-block;
+				color: rgba(255,255,255,.7);
+				line-height: 1;
+				border-right: 1px solid rgba(255,255,255,.7);
+                &:last-child {
+                    border-right: 0;
+                }
+                a {
+                    color: rgba(255,255,255,.7);
+                    line-height: 1;
+                }
+            }
+        }
+    }
+}
+// .site-footer {
+//     position: relative;
+//     width: 100%;
+//     padding: 28px 0 0;
+//     // margin-top: 30px;
+//     border-top: 8px solid $hitam;
+//     background: #333;
+//     color: #ffffff;
+//     z-index: 5;
+//     h5 {
+//         margin-bottom: 15px;
+//     }
+//     p {
+//         margin-bottom: 30px;
+//     }
+//     .footerLogo {
+//         margin-bottom: 20px;
+//     }
+//     .kontak {
+//         ul {
+//             @include clearit;
+//             margin-bottom: 15px;
+//             li {
+//                 font-size: 14px;
+//                 line-height: 1.5em;
+//                 margin-bottom: 5px;
+//                 a {
+//                     display: block;
+//                     color: white;
+//                 }
+//             }
+
+//         }
+//     }
+//     .listingLink {
+//         > li {
+//             float: left;
+//             width: calc(100% / 5);
+//             @include breakpoint(mobile) {
+//                 float: left;
+//                 width: calc(100% / 2);
+//                 margin-bottom: 15px;
+//             }
+//             ul {
+//                 li {
+//                     font-size: 14px;
+//                     line-height: 1.5em;
+//                     margin-bottom: 5px;
+//                     a {
+//                         display: block;
+//                         color: white;
+//                     }
+//                 }
+//                 &.sosmed_link {
+//                     li {
+//                         float: left;
+//                         padding: 0 18px 0 0;
+//                         a {
+//                             font-size: 22px;
+//                         }
+//                     }
+//                 }
+//             }            
+//         }
+//     }
+    // .poweredby {
+    //     font-size: 12px;
+    //     text-transform: uppercase;
+    //     margin-bottom: 18px;
+    //     img {
+    //         @include breakpoint(mobile) {
+    //             width: 120px;
+    //         }
+    //         @include breakpoint(small-mobile) {
+    //             width: 110px;
+    //         }
+    //         &:first-child {
+    //             margin-right: 35px;
+    //         }
+    //     }
+    // }
+//     .copyright {
+//         text-align: center;
+//         margin-top: 28px;
+//         padding: 20px 0 10px;
+//         background: $hitam;
+//     }
+// }

@@ -1,0 +1,69 @@
+.followSosmed {
+   position: relative;
+   span {
+      font-family: "Gotham Narrow A", "Gotham Narrow B", roboto_regular;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;
+      display: inline-block;
+      vertical-align: middle;
+   }
+   ul {
+      display: inline-block;
+      vertical-align: middle;
+      li {
+         margin: 0 4px;
+         display: inline-block;
+         &:last-child {
+            margin-right: 0;
+            margin-bottom: 0;
+         }
+         a {
+            display: block;
+            width: 28px;
+            height: 28px;
+            text-align: center;
+            border-radius: 50%;
+            i {
+               font-size: 16px;
+               line-height: 28px;
+               color: #FFFFFF;
+            }
+         }
+         a[class*="facebook"] {
+            background-color: $fb;
+            &:hover {
+               background-color: darken($fb, 5%);
+            }
+         }
+         a[class*="twitter"] {
+            background-color: $tw;
+            &:hover {
+               background-color: darken($tw, 5%);
+            }
+         }
+         a[class*="instagram"] {
+            background-color: $insta;
+            &:hover {
+               background-color: darken($insta, 5%);
+            }
+         }
+         a[class*="gg-plus"] {
+            background-color: $gg;
+            &:hover {
+               background-color: darken($gg, 5%);
+            }
+         }
+         a[class*="linkedin"] {
+            background-color: $lnkd;
+            &:hover {
+               background-color: darken($lnkd, 5%);
+            }
+            
+         }
+
+      }
+
+   }
+
+}

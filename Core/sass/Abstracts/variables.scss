@@ -1,0 +1,73 @@
+// FONT FAMILY
+$font_idx: 1;
+$font_default: Roboto_regular, Arial, sans-serif !default;
+
+// Font Family Ex. (name, 'fonts/path')
+$font_family: (
+    archivo_regular: 'fonts/archivonarrow-regular-webfont',
+    archivo_medium: 'fonts/archivonarrow-medium-webfont',
+    archivo_semibold: 'fonts/archivonarrow-semibold-webfont',
+    archivo_bold: 'fonts/archivonarrow-bold-webfont',
+    roboto_light: 'fonts/roboto-light-webfont',
+    roboto_regular: 'fonts/roboto-regular-webfont',
+    roboto_medium: 'fonts/roboto-medium-webfont',
+    roboto_bold: 'fonts/roboto-bold-webfont'
+);
+
+// BUTTONS
+// Default Button Ex. (button-class, background-code, font-color)
+$buttons:
+    ('btn-red', #D9534F, #FFFFFF),
+    ('btn-blue', #8eadb2, #FFFFFF),
+    ('btn-orange', #f47920, #FFFFFF),
+    ('btn-abu', #555555, #fff),
+    ('btn-abu-gelap', #aaaaaa, #FFFFFF),
+    ('btn-green', #5CB85C, #FFFFFF);
+
+
+// Color
+
+$hitam: #111;
+$hitam-kd: #333;
+$biru: #004a73;
+$biru_muda: #00aeef;
+$orange: #f47920;
+$choco: #c75d2d;
+$abu: #707070;
+$abu-light: #ddd;
+$graygreen: #ced3cc;
+
+$tw: #71adf3;
+$fb: #445f9f;
+$gg: #f83e2c;
+$insta: #e4405f;
+$lnkd: #33669e;
+$pinter: #bd081c;
+$other: #1baae1;
+$wa: #34AF23;
+$ln: #00c300;
+
+// text-align
+$align: left center right;
+
+// vertical-align
+$vertical-align: top middle bottom;
+
+// float
+$float: left right;
+
+// position
+$position: top right bottom left;
+
+// media-query
+$media-query:
+    (laptop, (min-width: 1366px)),
+    (desktop, (min-width: 1200px)),
+    (wide, (min-width: 992px)),
+    (tablet, (min-width: 768px) and (max-width: 991px)),
+    (mobile, (max-width: 767px)),
+    (m5inc, (min-width: 411px) and (max-width: 414px)),
+    (mHeight, (max-height: 414px)),
+    (smHeight, (max-height: 375px)),
+    (xsmHeight, (max-height: 320px)),
+    (small-mobile, (max-width: 360px));
